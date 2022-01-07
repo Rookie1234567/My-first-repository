@@ -6,5 +6,6 @@
 6. mkdir \xx\xx\xx   create a fold
 7. pwd     show the directionary
 8. git init     make this fold as the Git repository
-9. git status     show the status of the present repository
+9. git status     show the status of the present repository, it will tell you something has been changed
+10. git diff name.txt    to check the difference.
 
