@@ -1,11 +1,12 @@
 1. touch name.txt  create a .txt file named as name
 2. vi name.txt open this file and can write something
 3. To quit, you need to enter shift and : togerther and enter wq
-4. git add name.txt   add this file to the repository
+4. git add name.txt   add this file to the repository. Use it after each change otherwise nothing will be recorded.
 5. git commit -m "xxx"    xxx is to explain the description
 6. mkdir \xx\xx\xx   create a fold
 7. pwd     show the directionary
 8. git init     make this fold as the Git repository
 9. git status     show the status of the present repository, it will tell you something has been changed
 10. git diff name.txt    to check the difference.
+11. git log    To check the log that you send to the Git. Enter q to quit.
 
