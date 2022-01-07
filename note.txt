@@ -1,0 +1,5 @@
+1. touch name.txt  create a .txt file named as name
+2. vi name.txt open this file and can write something
+3. To quit, you need to enter shift and : togerther and enter wq
+4. git add name.txt   add this file to the repository
+5. git commit -m "xxx"    xxx is to explain the description
