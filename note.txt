@@ -9,4 +9,10 @@
 9. git status     show the status of the present repository, it will tell you something has been changed
 10. git diff name.txt    to check the difference.
 11. git log    To check the log that you send to the Git. Enter q to quit.
+12. git log --pretty=oneline     To simplify the log
+13. git reset --hard HEAD^    HEAD means the newest version. ^ means the last.
+14. git reset --hard commitID    Go back to the version with commitID
+15. git reflog       show all the commands
+
+
 
