@@ -3,3 +3,7 @@
 3. To quit, you need to enter shift and : togerther and enter wq
 4. git add name.txt   add this file to the repository
 5. git commit -m "xxx"    xxx is to explain the description
+6. mkdir \xx\xx\xx   create a fold
+7. pwd     show the directionary
+8.git init     make this fold as the Git repository
+
