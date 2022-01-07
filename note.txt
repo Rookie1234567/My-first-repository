@@ -5,5 +5,5 @@
 5. git commit -m "xxx"    xxx is to explain the description
 6. mkdir \xx\xx\xx   create a fold
 7. pwd     show the directionary
-8.git init     make this fold as the Git repository
+8. git init     make this fold as the Git repository
 
