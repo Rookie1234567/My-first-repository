@@ -14,4 +14,8 @@
 14. git reset --hard commitID    Go back to the version with commitID
 15. git reflog                   show all the commands
 16. git diff HEAD -- name.txt    Check the difference between the directory and repository
+17. git checkout -- name,txt     Discard the change in directory. Before add and commit
+18. git reset HEAD name.txt      Discard file in stage. After add and before commit. Then do the note 17th.
+19. git restore -- worktree file Make file back to directory from stage.
+20. git restore -- staged file   Make file back to stage from repository.
 
