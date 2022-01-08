@@ -31,4 +31,5 @@
 31. git switch -c <name>         Create a new branch and make it as the present branch.
 32. git merge <name>             Merge all to the <name>
 33. git branch -d <name>         Delete the branch with <name>
+34. git log --graph --pretty=oneline --abbrev-commit   To show how the branches merge.
 
