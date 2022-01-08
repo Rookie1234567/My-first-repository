@@ -21,4 +21,6 @@
 21. rm file                      Delete file in directory
 22. git checkout -- file         Replace the file from directory with the file from repository. 
 23. git rm file                  Delete the file in repository. Remember commit.
-
+24. git remote add origin git@github.com: path/repo-name.git   Make path/repo-name.git be connected to local repo. The remote repo name is origin.
+25. git push -u origin master    First push
+26. git push origin master       After each change, push it to the remote repo
