@@ -25,5 +25,10 @@
 25. git push -u origin master    First push
 26. git push origin master       After each change, push it to the remote repo
 27. git clone git@github.com: xxx.git       Clone the wanted remote repo to the local repo.
-
+28. git branch                   Check all branches
+29. git branch <name>            Create a new branch
+30. git switch <name>            Change <name> as the present branch
+31. git switch -c <name>         Create a new branch and make it as the present branch.
+32. git merge <name>             Merge all to the <name>
+33. git branch -d <name>         Delete the branch with <name>
 
