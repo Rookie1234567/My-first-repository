@@ -13,5 +13,5 @@
 13. git reset --hard HEAD^       HEAD means the newest version. ^ means the last.
 14. git reset --hard commitID    Go back to the version with commitID
 15. git reflog                   show all the commands
-
+16. git diff HEAD -- name.txt    Check the difference between the directory and repository
 
