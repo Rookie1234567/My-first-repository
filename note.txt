@@ -18,4 +18,7 @@
 18. git reset HEAD name.txt      Discard file in stage. After add and before commit. Then do the note 17th.
 19. git restore -- worktree file Make file back to directory from stage.
 20. git restore -- staged file   Make file back to stage from repository.
+21. rm file                      Delete file in directory
+22. git checkout -- file         Replace the file from directory with the file from repository. 
+23. git rm file                  Delete the file in repository. Remember commit.
 
