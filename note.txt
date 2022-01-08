@@ -4,7 +4,7 @@
 4. git add name.txt              add this file to the stage. Use it after each change otherwise nothing will be recorded.
 5. git commit -m "xxx"           xxx is to explain the description and add the file from stage to branch.
 6. mkdir \xx\xx\xx               create a fold
-7. pwd                           show the directionary
+7. pwd                           show the directory
 8. git init                      make this fold as the Git repository
 9. git status                    show the status of the work directory, it will tell you something has been changed
 10. git diff name.txt            to check the difference.
