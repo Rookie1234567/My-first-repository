@@ -29,7 +29,12 @@
 29. git branch <name>            Create a new branch
 30. git switch <name>            Change <name> as the present branch
 31. git switch -c <name>         Create a new branch and make it as the present branch.
-32. git merge <name>             Merge all to the <name>
+32. git merge <name>             Merge <name> to the present branch
 33. git branch -d <name>         Delete the branch with <name>
 34. git log --graph --pretty=oneline --abbrev-commit   To show how the branches merge.
+35. git merge --no-ff -m "merge with no-ff" <branch>   Merge <branch> without fast forward.
+36. git stash                     Save the present branch
+37. git stash pop                 Go back to the saved branch
+38. git cherry-pick <commit>      Copy the work with id <commit> to the present branch.
+39. git stash list                Check the saved branch
 
