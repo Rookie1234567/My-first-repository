@@ -37,4 +37,16 @@
 37. git stash pop                 Go back to the saved branch
 38. git cherry-pick <commit>      Copy the work with id <commit> to the present branch.
 39. git stash list                Check the saved branch
+40. git remote -v                 Check remote repo information
+41. git push origin <branch>      Push branch to remote repo
+42. git checkout -b <branch> origin/<branch>  Create the branch corresponding to the remote repo
+43. git branch --set-upstream <branch> origin/<branch>   Create the connection between local and remote branch
+44. git pull                      Get branch from remote repo
+45. git tag <tagname>             Create a tag. You can add a commit id to specify one.
+46. git tag -a <tagname> -m "xxx" Add a description to the tag
+47. git tag                       Check all tags
+48. git push origin <tagname>     Push one tag to remote repo
+49. git push origin --tags        Push all tags to remote repo
+50. git tag -d <tagname>          Delete one local tag
+51. git push origin : refs/tags/<tagname>  Delete one remote tag
 
